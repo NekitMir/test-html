@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0; /* Внешнии отступы */
+  padding: 0; /* Внутренние отступы */
+}
+
+.wrapper {
+  padding: 50px 0;
+  background: url('https://i.pinimg.com/originals/92/f9/0c/92f90cc02798af7e8a71b63d7c2f7110.jpg') 50%/cover no-repeat;
+}
+
+.container {
+  max-width: 1200px;
+  background: url('https://topsov.com/wp-content/uploads/2022/02/142943a2e9c02aec2fe0c30d743f3e85.jpg') 50%/cover no-repeat fixed;
+  color: aliceblue;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container > h1, .container > h3 {
+  text-transform: uppercase;
+  background-color: rgb(0, 0, 0,.5);
+  letter-spacing: 2.5px;
+  max-width: 400px;
+  margin: 15px auto;
+}
+
+.container > h1 {
+  margin: 0 auto 15px;
+}
+
+.photo {
+  max-width: 600px;
+  height: 400px;
+  background: url('https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663463563_56-mykaleidoscope-ru-p-nevskii-prospekt-isaakievskii-sobor-krasiv-58.jpg') 50%/cover no-repeat;
+  border: 10px solid rgb(46, 155, 244);
+  margin: 0 auto; /* Централизирует картинку по центру блока */
+}
+
+.bridges {
+  margin: 30px auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bridges__photo {
+  width: 400px;
+  height: 300px;
+  background: url('https://pic.rutubelist.ru/video/73/5a/735aa5bfe95de9dcf9fb1b56bc27305c.jpg') 50%/cover no-repeat;
+  border: 10px solid rgb(46, 155, 244);
+  margin: 0 10px 0 0;
+}
+
+.bridges__about {
+  width: 390px;
+  text-align: left;
+  background-color: rgb(0, 0, 0,.4);
+  padding: 1rem;
+}
+
+.bridges__about > p {
+  margin: 0;
+}
+
+.look {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.look__photo_1 {
+  width: 350px;
+  height: 250px;
+  background: url('https://respekt-travel.ru/images/foto/city/Petersburg/1/foto-2.jpg') 50%/cover no-repeat;
+  margin: 10px;
+}
+
+.look__photo_2 {
+  width: 350px;
+  height: 250px;
+  background: url('https://static.tildacdn.com/tild3131-3237-4536-b734-613466326361/13290005349225.jpg') 50%/cover no-repeat;
+  margin: 10px;
+}
+
+.look__photo_3 {
+  width: 350px;
+  height: 250px;
+  background: url('https://yobte.ru/uploads/posts/2023-05/dostoprimechatelnosti-sankt-peterburga-144-foto-95.webp') 50%/cover no-repeat;
+  margin: 10px;
+}
+
+.look__photo_4 {
+  width: 350px;
+  height: 250px;
+  background: url('https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663148801_1-mykaleidoscope-ru-p-arkhitektura-sankt-peterburga-oboi-1.jpg') 50%/cover no-repeat;
+  margin: 10px;
+}
+
+.look__photo_5 {
+  width: 350px;
+  height: 250px;
+  background: url('https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663326709_1-mykaleidoscope-ru-p-okrestnosti-sankt-peterburga-krasivo-1.jpg') 50%/cover no-repeat;
+  margin: 10px;
+}
+
+.look__photo_6 {
+  width: 350px;
+  height: 250px;
+  background: url('https://img.tourister.ru/files/1/8/8/7/6/5/6/0/original.jpg') 50%/cover no-repeat;
+  margin: 10px;
+}
+
+.button {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(46, 155, 244);
+  margin: 0 auto;
+  line-height: 35px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .6;
+}
